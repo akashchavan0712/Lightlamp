@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Light-Lamp</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="hero">
+    <nav>
+      <h1 class = "myName">Akash Chavan</h1>
+      <ul>
+        <li><a href="#">Latest</a></li>
+        <li><a href="#">Modern</a></li>
+        <li><a href="#">Contemprary</a></li>
+        <li><a href="#">Affordable</a></li>
+      </ul>
+      <button type="button" id = "btn" onclick="toggleBtn()"><span></span></button>
+    </nav>
+    <div class="lamp-container">
+      <img class="lamp" src="images/lamp.png" alt="lamp-image">
+      <img class="light" src="images/light.png" id = "light" alt="light-image">
+    </div>
+    <div class="">
+        <p class = "bright">Make Your World Brighter</p>
+    </div>
+    <div class="text-container">
+      <h1>Latest in<br>Lighting</h1>
+      <p>RandomText RandomText RandomTextRandomText RandomText RandomText RandomText
+        RandomText RandomText RandomText RandomTextRandomText.</p>
+      <a href="">Latest Collections</a>
+      <div class="control">
+        <p>04</p>
+        <div class="line"><span class = "lineClass"></span></div>
+        <p>05</p>
+      </div>
+    </div>
+
+
+  </div>
+
+<script>
+  var btn = document.getElementById('btn');
+  var light = document.getElementById('light');
+
+  function toggleBtn() {
+    btn.classList.toggle("active");
+    light.classList.toggle("on");
+  }
+</script>
+</body>
+
+</html>
