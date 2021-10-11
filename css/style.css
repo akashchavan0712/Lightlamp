@@ -24,18 +24,6 @@ nav{
   font-weight: bold;
 }
 
-.menu-img{
-  width: 25px;
-  margin-right: 20px;
-  cursor: pointer;
-}
-
-.logo-img{
-  width: 120px;
-  margin-right: 20px;
-  cursor: pointer;
-}
-
 nav ul{
   flex: 1;
   text-align: right;
